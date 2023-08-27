@@ -1,0 +1,9 @@
+.dashboardTaskContainer {
+  display: flex;
+}
+.dashboardYesterdaysTask {
+  width: 100%;
+}
+.dashboardTodaysTask {
+  width: 100%;
+}

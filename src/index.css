@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Assign CSS Variables here */
+:root {
+}
+
+body {
+  /* colors */
+  --primary-color: #9ac5f4;
+  --secondary-color: #99dbf5;
+  --terniary-color: #ffeebb;
+  --white-color: #fff;
+  --black-color: #000;
+}
