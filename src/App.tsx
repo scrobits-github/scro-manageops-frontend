@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   useEffect(() => {
     if (localStorage.getItem("loggedIn") === "true") {
       console.log("user true");

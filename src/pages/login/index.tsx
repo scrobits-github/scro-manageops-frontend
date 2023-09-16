@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const [login, setLogin] = useState(false);
+  // const [login, setLogin] = useState<boolean>(false);
   const navigate = useNavigate();
   const [userDetails, setUserDetails] = useState({
     currentUser: {

@@ -56,6 +56,7 @@ function Clients() {
         [name]: value,
       },
     }));
+    
   };
   return (
     <div>

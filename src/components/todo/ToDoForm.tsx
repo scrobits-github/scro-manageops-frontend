@@ -7,7 +7,7 @@ import { PlusOutlined } from "@ant-design/icons";
 
 function ToDoForm() {
   const { assignedBy, currentTask } = useSelector(
-    (state: RootState) => state.task
+    (state: RootState) => state?.task
   );
   const dispatch = useDispatch();
   useEffect(() => {

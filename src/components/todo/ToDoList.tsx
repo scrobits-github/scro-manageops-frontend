@@ -1,10 +1,9 @@
-import React from "react";
 import ToDoForm from "./ToDoForm";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux/app/store";
 import { Checkbox, Col, Row } from "antd";
 import Style from "../../styles/task.module.css";
-import { editTask, handleTaskInput } from "../../redux/features/taskSlice";
+import { editTask } from "../../redux/features/taskSlice";
 import { CheckboxChangeEvent } from "antd/es/checkbox";
 function ToDoList() {
   const { task } = useSelector((state: RootState) => state.task);
